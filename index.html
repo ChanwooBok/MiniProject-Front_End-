@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Aussie Trip Mate</title>
-    <script src="main.js" defer></script>
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
         <!-- navbar -->
@@ -80,10 +80,10 @@
         <!-- Work -->
         <section id="work">
             <div class="work__categories">
-                <button class="category__btn">CAMPSITES <span class="category__count">5</span></button>
-                <button class="category__btn">THINGS TO DO <span class="category__count">5</span></button>
-                <button class="category__btn">ITINERARIES <span class="category__count">5</span></button>
-                <button class="category__btn">COMMUNITY <span class="category__count">5</span></button>
+                <button class="category__btn" data-filter="CAMPSITES">CAMPSITES</button>
+                <button class="category__btn" data-filter="THINGS TO DO">THINGS TO DO </button>
+                <button class="category__btn" data-filter="ITINERARIES">ITINERARIES </button>
+                <button class="category__btn" data-filter="COMMUNITY">COMMUNITY</button>
             </div>
             <div class="work__projects">
                 <a href="https://www.waholidayguide.com.au/western-australia-accommodation/browse-accommodation/western-australia-caravan-park-camping"
@@ -105,6 +105,17 @@
                     <div class="project__description">
                         <h3>thingsTodo</h3>
                         <span>popular activities</span>
+                    </div>
+                </a>
+
+                <a href="https://summerstar.com.au/blog/road-trips-wa"
+                   class="project"
+                   target="blank"
+                >
+                    <img src="imgs/projects/itinerary.jpg" alt="itinerary" class="procject__img">
+                    <div class="project__description">
+                        <h3>itinerary</h3>
+                        <span>must go itinerary</span>
                     </div>
                 </a>
 
