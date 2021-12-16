@@ -1,0 +1,57 @@
+:root{
+    /* color */
+
+    /* Font size */
+
+    --font-large:48px;
+    --font-medium:28px;
+    --font-regular:18px;
+    --font-small:16px;
+    --font-micro:14px;
+
+
+
+    /* Font weight */
+    --weight-bold:700;
+    --weight-semi-bold:600;
+    --weight-regular:400;
+
+    /* Size  */
+}
+
+/* universal tags */
+*{
+    box-sizing:border-box; 
+    /* 패딩을 줘도 width height포함하여서 동일한 width height이 되도록.. */
+}
+
+/* typography */
+
+h1{
+    font-size:var(--font-large);
+    font-weight: var(--weight-bold);
+    color:black;
+    margin:16px 0px;
+}
+
+h2{
+    font-size: var(--font-regular);
+    font-weight: var(--weight-semi-bold);
+    color:black;
+    margin:8px 0px;
+}
+
+h3{
+    font-size: var(--font-regular);
+    font-weight: var(--font-regular);
+    color:black;
+    margin:8px 0px;
+}
+
+p{
+    font-size: var(--font-regular);
+    font-weight: var(--font-regular);
+    color:black;
+    margin:4px 0px;
+}
+
